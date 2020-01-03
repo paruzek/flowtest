@@ -59,4 +59,4 @@ def plural(noun, rules_filename="plural4-rules.txt"):
             return apply_rule(noun)
     raise ValueError("No matching rule for {0}".format(noun))           
 
-print(plural("an"))
+print(plural("ang"))
