@@ -4,7 +4,7 @@ def fib(max):
         yield a
         a, b = b, a + b
 
-for n in fib(1000):
+for n in fib(100):
     print(n , end=" ")
 
-list(fib(1000))
+list(fib(100))
