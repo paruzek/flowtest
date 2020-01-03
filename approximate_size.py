@@ -16,7 +16,7 @@ def approximate_size(size, a_kilobyte_is_1024_bytes=True):
         size /= multiple
         if size < multiple:
             return '{0:.1f} {1}'.format(size, suffix)
-    raise ValueError('number too large')
+    raise ValueError('Number too large!')
 
 if __name__ == '__main__':
     print(approximate_size(1000000000000, False))
