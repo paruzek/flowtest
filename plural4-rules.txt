@@ -2,4 +2,5 @@
 [^aeioudgkprt]h$    $   ees
 [^aeiou]y$  y$  ies
 [ú]$    $   abc 
+[ů]$    $   abc 
 $   $   s
